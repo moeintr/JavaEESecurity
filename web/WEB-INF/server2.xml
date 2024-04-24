@@ -1,0 +1,13 @@
+<Realm
+        className="org.apache.catalina.realm.JDBCRealm"
+        driverName="com.microsoft.sqlserver.jdbc.SQLServerDriver"
+        connectionURL="jdbc:sqlserver://localhost:1433;DatabaseName=Moein;encrypt=true;trustServerCertificate=true"
+        connectionName="sa"
+        connectionPassword="aA@9394485791"
+        userTable="users"
+        userNameCol="username"
+        userCredCol="password"
+        userRoleTable="roles"
+        roleNameCol="role_name"
+        digest="md5"
+/>
